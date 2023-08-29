@@ -1,15 +1,15 @@
 public class Runner {
         public static void main(String[] args) {
-            Dikdörtgen dd=new Dikdörtgen(24,7);
-            dd.setName("dikdörtgen");
-            dd.cevreHesapla();
-            dd.alanHesapla();
-            System.out.println(dd.ciz());
+            Rectangle dd=new Rectangle(24,7);
+            dd.setName("rectangle");
+            dd.environmentCalculate();
+            dd.areaCalculate();
+            System.out.println(dd.draw());
             System.out.println(dd);
 
-            Cember cc=new Cember(39);
+            Circle cc=new Circle(39);
 
-            cc.setName("cemberimde gül oya ");
+            cc.setName("Rose lace in my pocket ");
             System.out.println("cc = " + cc);
 
 
