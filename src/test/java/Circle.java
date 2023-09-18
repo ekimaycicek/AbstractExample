@@ -24,7 +24,6 @@ public class Circle extends Shape {
         return this.halfDiameter*Pi*this.halfDiameter;
     }
 
-
     @Override
     public double environmentCalculate() {
         return 2*Pi*this.halfDiameter;
