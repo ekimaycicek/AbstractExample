@@ -10,10 +10,10 @@ public class Circle extends Shape {
         this.halfDiameter = halfDiameter;
     }
 
+
     public double getPi() {
         return Pi;
     }
-
 
     public Circle(double halfDiameter) {
         this.halfDiameter = halfDiameter;
