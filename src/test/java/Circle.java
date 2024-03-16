@@ -18,6 +18,7 @@ public class Circle extends Shape {
         this.halfDiameter = halfDiameter;
 
     }
+
     @Override
     public double areaCalculate() {
         return this.halfDiameter*Pi*this.halfDiameter;
